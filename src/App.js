@@ -46,7 +46,6 @@ function App() {
     <Alert alert={alert}/>
     <div className="container my-3">
     <Routes>
-          <Route exact path="/my-app" element={<Navbar title="TextUtils" mode = {mode} togglemode = {togglemode}/>}/>
           <Route exact path="/about" element={<About mode={mode}/>}/>
           <Route exact path="/my-app" element={<TextForm heading='Enter the text to analyze below:'showAlert={showAlert} mode = {mode}/>}/>
     </Routes>
